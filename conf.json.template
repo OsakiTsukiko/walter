@@ -1,0 +1,66 @@
+{
+    "user": {
+        "name": "NAME",
+        "password": ""
+    },
+    "server": {
+        "ip": "mc.ip.com",
+        "port": "25565",
+        "version": "1.18.2",
+        "password": "in game login",
+        "anarchy_check": {
+            "pos1": {
+                "x": "1000000",
+                "z": "-1000100"
+            },
+            "pos2": {
+                "x": "1000100",
+                "z": "-1000000"
+            }
+        },
+        "antiafk": {
+            "pos1": {
+                "x": "10",
+                "y": "10",
+                "z": "10"
+            },
+            "pos2": {
+                "x": "20",
+                "y": "10",
+                "z": "10"
+            },
+            "enabled": true,
+            "interval": 300000
+        }
+    },
+    "discord": {
+        "owner": "discord_owner_id",
+        "token": "TOKEN",
+        "prefix": "OWO",
+        "chat_bridge": [
+            "channel_id",
+            "channel_id"
+        ],
+        "selflog": [
+            "channel_id"
+        ],
+        "r0_log": [
+            "channel_id"
+        ],
+        "color": {
+            "bridge": {
+                "msg": "#ffffff",
+                "discord": "#5865f2"
+            }
+        }
+    },
+    "bot": {
+        "heartbeat": {
+            "enabled": "true",
+            "interval": 1000
+        },
+        "save": {
+            "save_dir": "saves"
+        }
+    }
+}

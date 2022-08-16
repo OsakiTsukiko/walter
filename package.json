@@ -1,0 +1,16 @@
+{
+  "name": "chestkeeper",
+  "version": "0.0.1",
+  "description": "Le Bot",
+  "main": "main.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "OsakiTsukiko",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.2.0",
+    "mineflayer": "^4.4.0",
+    "mineflayer-pathfinder": "^2.3.1"
+  }
+}
