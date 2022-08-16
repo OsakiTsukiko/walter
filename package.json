@@ -1,7 +1,7 @@
 {
-  "name": "chestkeeper",
+  "name": "walter",
   "version": "0.0.1",
-  "description": "Le Bot",
+  "description": "MC Bot",
   "main": "main.js",
   "scripts": {
     "start": "node ."
