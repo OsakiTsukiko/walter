@@ -174,6 +174,17 @@ function gamster_message_handler (msg) { // returns { author, message, extra } o
 
             return { author, content, extra }
 
+        } else if ( 
+            msg.extra[0].text == '(' && 
+            msg.extra[1].text == '!' && 
+            msg.extra[2].text == ') ' && 
+            // msg.extra[3].text == 'Please type \'\'' && 
+            msg.extra.length > 4 
+        ) {
+            walter.chat(msg.extra[4].text);
+            log("Attempt at anti bot thing!", 0);
+            return -2;
+            
         }
 
         return 0;
